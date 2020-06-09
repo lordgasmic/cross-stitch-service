@@ -7,5 +7,5 @@ import java.util.List;
 
 public interface FlossPatternRepository extends Repository<FlossPatternEntity, String> {
 
-    List<FlossPatternEntity> findAllDistinctName();
+    List<String> findAllDistinctName();
 }
