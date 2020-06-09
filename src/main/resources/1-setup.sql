@@ -1,4 +1,4 @@
-create user xstitch_appl identified by 'xstitch_appl_password';
+create user 'xstitch_appl'@'localhost' identified by 'xstitch_appl_password';
 
 create table floss(
     id int not null auto_increment primary key,
