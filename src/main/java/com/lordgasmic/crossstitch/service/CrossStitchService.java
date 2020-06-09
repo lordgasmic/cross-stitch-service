@@ -19,4 +19,11 @@ public class CrossStitchService {
 
         return response;
     }
+
+    public FlossResponse getPatterns(){
+        FlossResponse response = new FlossResponse();
+        response.setFlosses(repository.findByNameDistinct());
+
+        return response;
+    }
 }

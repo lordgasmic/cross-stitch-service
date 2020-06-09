@@ -14,8 +14,12 @@ public class CrossStitchController {
     private CrossStitchService service;
 
     @GetMapping("/floss")
-    public FlossResponse login(@Valid @RequestParam int colorCode) {
-
+    public FlossResponse floss(@Valid @RequestParam int colorCode) {
         return service.getFloss(colorCode);
+    }
+
+    @GetMapping("/patterns")
+    public FlossResponse patterns() {
+        return service.getPatterns();
     }
 }

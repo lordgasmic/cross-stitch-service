@@ -8,4 +8,6 @@ import java.util.List;
 public interface FlossRepository extends Repository<FlossEntity, String> {
 
     List<FlossEntity> findByColorCode(int colorCode);
+
+    List<FlossEntity> findByNameDistinct();
 }
