@@ -32,7 +32,7 @@ public class CrossStitchService {
         FlossResponse response = new FlossResponse();
         //response.setPatterns(flossPatternRepository.findAllDistinctName());
 
-        flossPatternRepository.findAllDistinctName().forEach(System.out::println);
+        flossPatternRepository.findDistinctName().forEach(System.out::println);
         return response;
     }
 }
