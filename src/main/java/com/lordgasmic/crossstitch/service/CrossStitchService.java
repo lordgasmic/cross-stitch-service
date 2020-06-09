@@ -30,7 +30,7 @@ public class CrossStitchService {
 
     public FlossResponse getPatterns(){
         FlossResponse response = new FlossResponse();
-        response.setPatterns(flossPatternRepository.findDistinctName());
+        response.setPatterns(flossPatternRepository.findAllDistinctName());
 
         return response;
     }
