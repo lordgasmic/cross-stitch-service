@@ -1,7 +1,7 @@
 package com.lordgasmic.crossstitch.model;
 
 import com.lordgasmic.crossstitch.entity.FlossEntity;
-import com.lordgasmic.crossstitch.entity.FlossPatternEntity;
+import com.lordgasmic.crossstitch.entity.PatternEntity;
 import lombok.Data;
 
 import java.util.List;
@@ -10,5 +10,5 @@ import java.util.List;
 public class FlossResponse {
 
     private List<FlossEntity> flosses;
-    private List<FlossPatternEntity> patterns;
+    private List<PatternEntity> patterns;
 }

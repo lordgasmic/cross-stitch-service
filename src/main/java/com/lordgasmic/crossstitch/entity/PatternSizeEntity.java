@@ -7,17 +7,15 @@ import lombok.NoArgsConstructor;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
-@Entity(name = "floss_pattern_vw")
+@Entity(name = "floss_vw")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class FlossPatternEntity {
+public class PatternSizeEntity {
 
-    @Id
-    private int id;
-    private String name;
-    private int size;
+    private int pid;
     private String height;
     private String width;
+    private int size;
 
 }

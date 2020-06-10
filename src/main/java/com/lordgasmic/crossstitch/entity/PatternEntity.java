@@ -5,16 +5,19 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-@Entity(name = "floss_inventory_vw")
+@Entity(name = "floss_pattern_vw")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class FlossInventoryEntity {
+public class PatternEntity {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
-    private String skein;
-    private String length;
+    private String name;
+    private String brand;
 }
