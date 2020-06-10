@@ -8,5 +8,5 @@ import java.util.List;
 
 public interface FlossInventoryRepository extends Repository<FlossInventoryEntity, String> {
 
-    List<FlossInventoryEntity> findByColorCode(int colorCode);
+    List<FlossInventoryEntity> findAll();
 }
