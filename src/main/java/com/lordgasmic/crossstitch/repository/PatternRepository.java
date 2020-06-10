@@ -8,5 +8,5 @@ import java.util.List;
 public interface PatternRepository extends Repository<PatternEntity, String> {
 
     List<PatternEntity> findAll();
-    List<PatternEntity> findById(int id);
+    PatternEntity findById(int id);
 }

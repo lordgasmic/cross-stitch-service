@@ -218,3 +218,33 @@ insert into pattern_size (pid, size, height, width) values (4,16,'47.6','79.4');
 insert into pattern_size (pid, size, height, width) values (4,18,'42.3','70.6');
 insert into pattern_size (pid, size, height, width) values (4,25,'30.5','50.8');
 insert into pattern_size (pid, size, height, width) values (5,14,'23.2','31.9');
+
+
+insert into pattern_floss (pid, fid, stitches) values (1,100,468);
+insert into pattern_floss (pid, fid, stitches) values (1,121,181);
+insert into pattern_floss (pid, fid, stitches) values (1,83,680);
+insert into pattern_floss (pid, fid, stitches) values (1,81,62);
+insert into pattern_floss (pid, fid, stitches) values (1,84,324);
+insert into pattern_floss (pid, fid, stitches) values (1,140,7580);
+insert into pattern_floss (pid, fid, stitches) values (1,17,138);
+insert into pattern_floss (pid, fid, stitches) values (1,110,509);
+insert into pattern_floss (pid, fid, stitches) values (1,161,218);
+insert into pattern_floss (pid, fid, stitches) values (1,93,847);
+insert into pattern_floss (pid, fid, stitches) values (1,191,494);
+insert into pattern_floss (pid, fid, stitches) values (1,109,455);
+insert into pattern_floss (pid, fid, stitches) values (1,156,12);
+insert into pattern_floss (pid, fid, stitches) values (1,37,4);
+insert into pattern_floss (pid, fid, stitches) values (1,112,193);
+insert into pattern_floss (pid, fid, stitches) values (1,172,704);
+insert into pattern_floss (pid, fid, stitches) values (1,16,233);
+insert into pattern_floss (pid, fid, stitches) values (1,104,605);
+insert into pattern_floss (pid, fid, stitches) values (1,29,353);
+insert into pattern_floss (pid, fid, stitches) values (1,146,7232);
+insert into pattern_floss (pid, fid, stitches) values (1,131,282);
+insert into pattern_floss (pid, fid, stitches) values (1,113,603);
+insert into pattern_floss (pid, fid, stitches) values (1,64,71);
+insert into pattern_floss (pid, fid, stitches) values (1,92,447);
+insert into pattern_floss (pid, fid, stitches) values (1,102,912);
+insert into pattern_floss (pid, fid, stitches) values (1,108,702);
+insert into pattern_floss (pid, fid, stitches) values (1,31,1269);
+
