@@ -9,5 +9,5 @@ import java.util.List;
 public interface PatternFlossRepository extends Repository<PatternFlossEntity, String> {
 
     List<PatternFlossEntity> findAll();
-    List<PatternFlossEntity> findById(int id);
+    List<PatternFlossEntity> findByFid(int id);
 }

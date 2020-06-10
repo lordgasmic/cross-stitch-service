@@ -14,7 +14,11 @@ import javax.persistence.Id;
 public class PatternFlossEntity {
 
     @Id
-    private PatternFlossPK pk;
+    private int pid;
+
+    @Id
+    private int fid;
+
     private int stitches;
     private String skein;
 }
