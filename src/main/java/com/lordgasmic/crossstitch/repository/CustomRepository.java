@@ -8,6 +8,6 @@ import java.util.List;
 
 public interface CustomRepository extends Repository<CustomEntity, Long> {
 
-    @Query("select p.*, pf.*, f.color_code from pattern_vw p, pattern_floss_vw pf, floss_vw f where p.id = pf.pid and f.id = pf.fid;")
+    @Query(nativeQuery = true, value ="select p.*, pf.*, f.color_code from pattern_vw p, pattern_floss_vw pf, floss_vw f where p.id = pf.pid and f.id = pf.fid;")
     List<CustomEntity> getPatternAndFloss();
 }
