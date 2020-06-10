@@ -7,6 +7,6 @@ import java.util.List;
 
 public interface FlossRepository extends Repository<FlossEntity, String> {
 
-    List<FlossEntity> findInId(List<Integer> id);
+    List<FlossEntity> findByIdIn(List<Integer> id);
 
 }
