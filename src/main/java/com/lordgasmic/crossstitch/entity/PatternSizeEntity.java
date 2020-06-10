@@ -13,6 +13,7 @@ import javax.persistence.Id;
 @NoArgsConstructor
 public class PatternSizeEntity {
 
+    @Id
     private int pid;
     private String height;
     private String width;

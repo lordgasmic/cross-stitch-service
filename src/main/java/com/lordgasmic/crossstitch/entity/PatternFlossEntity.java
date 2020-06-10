@@ -13,8 +13,8 @@ import javax.persistence.Id;
 @NoArgsConstructor
 public class PatternFlossEntity {
 
-    private int pid;
-    private int fid;
+    @Id
+    private PatternFlossPK pk;
     private int stitches;
     private String skein;
 }
