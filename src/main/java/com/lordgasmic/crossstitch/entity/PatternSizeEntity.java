@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
-@Entity(name = "floss_vw")
+@Entity(name = "pattern_size_vw")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

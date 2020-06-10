@@ -9,7 +9,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-@Entity(name = "floss_pattern_vw")
+@Entity(name = "pattern_vw")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
