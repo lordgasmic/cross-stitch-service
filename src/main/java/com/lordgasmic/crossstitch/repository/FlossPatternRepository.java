@@ -7,5 +7,5 @@ import java.util.List;
 
 public interface FlossPatternRepository extends Repository<PatternEntity, String> {
 
-    List<String> findNameDistinct();
+    List<String> findNameDistinctBy();
 }
