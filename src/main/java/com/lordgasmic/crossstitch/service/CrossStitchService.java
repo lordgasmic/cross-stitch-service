@@ -28,8 +28,8 @@ public class CrossStitchService {
     @Autowired
     private PatternRepository patternRepository;
 
-    @Autowired
-    private PatternFlossRepository patternFlossRepository;
+//    @Autowired
+//    private PatternFlossRepository patternFlossRepository;
 
     @Autowired
     private FlossInventoryRepository flossInventoryRepository;
