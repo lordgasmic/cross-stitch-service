@@ -2,7 +2,7 @@ package com.lordgasmic.crossstitch.service;
 
 import com.lordgasmic.crossstitch.model.FlossResponse;
 import com.lordgasmic.crossstitch.repository.FlossInventoryRepository;
-import com.lordgasmic.crossstitch.repository.FlossPatternRepository;
+import com.lordgasmic.crossstitch.repository.PatternRepository;
 import com.lordgasmic.crossstitch.repository.FlossRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -14,7 +14,7 @@ public class CrossStitchService {
     private FlossRepository flossRepository;
 
     @Autowired
-    private FlossPatternRepository flossPatternRepository;
+    private PatternRepository flossPatternRepository;
 
     @Autowired
     private FlossInventoryRepository flossInventoryRepository;

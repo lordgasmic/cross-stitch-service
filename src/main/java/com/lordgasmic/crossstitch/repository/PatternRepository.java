@@ -5,7 +5,8 @@ import org.springframework.data.repository.Repository;
 
 import java.util.List;
 
-public interface FlossPatternRepository extends Repository<PatternEntity, String> {
+public interface PatternRepository extends Repository<PatternEntity, String> {
 
-    List<String> findNameDistinctBy();
+    List<PatternEntity> findAll();
+    List<PatternEntity> findById(int id);
 }
