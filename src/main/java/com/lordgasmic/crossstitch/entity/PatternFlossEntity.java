@@ -6,12 +6,13 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import java.io.Serializable;
 
 @Entity(name = "pattern_floss_vw")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class PatternFlossEntity {
+public class PatternFlossEntity implements Serializable {
 
     @Id
     private int pid;
